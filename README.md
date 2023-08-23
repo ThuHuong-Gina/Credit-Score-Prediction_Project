@@ -1,4 +1,4 @@
-# CREDIT SCORE DETECTION_UNIVERSITY PROJECT
+# CREDIT SCORE_UNIVERSITY PROJECT
 This is a Python project that I worked on in university on Bussiness Artificial Intelligent subject
 ## 1. Mục tiêu  
 	- Cải thiện trải nghiệm của khách hàng trong việc giảm thiểu thời gian xét duyệt hồ sơ. 
