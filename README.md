@@ -56,6 +56,7 @@ Kết quả cảu quá trình XHTD khách hàng cá nhân sẽ được đánh g
 
 ### 4.4. Hệ thống xếp hạng
 Mô hình này chú trọng nhiều hơn về khả năng trả nợ với 8 chỉ tiêu đánh giá, trong khi đó đặc điểm thân nhân chỉ có 4 chỉ tiêu đánh giá. Chương trình sẽ kiểm tra tính hợp lý của dữ liệu theo nguyên tắc kiểm soát chỉ số và chỉ ra những điểm cần xem xét lại khi phát hiện có sự không hợp lý về chỉ tiêu pháp lý, chỉ tiêu chấm điểm, tổng điểm và xếp hạng của khách hàng. Hệ thống ký hiệu xếp hạng cá nhân có các mức giảm từ AAA đến D như trình bày trong bảng sau. Căn cứ vào tổng điểm tối đa giảm dần từ 100 điểm của từng cá nhân (đã quy đổi theo trọng số như trên) để xếp hạng tương ứng.
+
 ![image](https://github.com/ThuHuong-Gina/Credit-Score-Prediction_Project/assets/141025228/c9bcb898-677c-4d47-88a2-ea0dacad47c7)
 
 
