@@ -1,35 +1,38 @@
 # CREDIT SCORE_UNIVERSITY PROJECT
 This is a Python project that I worked on in university on Bussiness Artificial Intelligent subject
-## 1. Mục tiêu  
-	- Cải thiện trải nghiệm của khách hàng trong việc giảm thiểu thời gian xét duyệt hồ sơ. 
-	- Cải thiện khả năng dự đoán của mô hình chấm điểm theo phương pháp truyền thống, tăng chất lượng tín dụng của khách hàng vay trả góp, tăng tỷ lệ phê duyệt trả góp và chủ động kiểm soát nợ xấu. 
-	=> Dự án “Chấm điểm tín dụng bằng trí tuệ nhân tạo” mang đến lợi thế cạnh tranh, tăng tỷ lệ tín nhiệm của ngân hàng trên thị trường.
-## 2. Chấm điểm tín dụng là gì?
-Đây là phương pháp được thực hiện để đánh giá mức độ rủi ro của khách hàng vay vốn trên cơ sở định tính và định lượng, làm căn cứ để xác định giới hạn tín dụng cho khách hàng. Trên cơ sở đánh giá mức độ rủi ro của người đi vay thông qua các phương pháp thống kê, nghiên cứu dữ liệu, phân tích bảng báo cáo tài chính, bảng cân đối kế toán…từ đó đưa ra những chỉ số, giới hạn tín dụng an toàn tối đa đối với một khách hàng, đó được gọi là “điểm” để các ngân hàng căn cử đánh giá, xếp loại rủi ro tín dụng của khách hàng. Từ việc phân tích những dữ liệu về các khoản vay trong quá khứ để tạo dựng một hình mẫu chấm điểm hiệu quả cho khách hàng. 
-## 3.Sự cần thiết của chấm điểm tín dụng trong ngân hàng
-	- Các ngân hàng thương mại luôn đối mặt với những rủi ro trong quá trình hoạt động của mình như rủi ro tín dụng, rủi ro lãi suất, rủi ro thanh khoản, rủi ro về ngoại hối… Trong đó rủi ro tín dụng là đáng chủ trọng nhất, vì hoạt động tín dụng là hoạt động chủ yếu nhất của các ngân hàng thương mại, là sợi chỉ đỏ xuyên suốt quá trình hoạt động của các ngân hàng thương mại. Việc chấm điểm tín dụng và xếp hạng khách hàng được thực hiện nhằm hỗ trợ NHCV trong việc:
-	- Ra quyết định cấp tín dụng: xác định hạn mức tín dụng, thời hạn, mức lãi suất, biện pháp bảo đảm tiền vay, phê duyệt hay không phê duyệt. 
-	- Giảm sát và đánh giá khách hàng tín dụng khi khoản tín dụng đang cò dư nợ; Hạng khách hàng cho phép NHCV lường trước những dấu hiệu cho thấy khoản vay đang có chất lượng xấu đi và có những biện pháp đối phó kịp thời. Xét trên góc độ quản lý toàn bộ danh mục tín dụng, hệ thống chấm điểm tín dụng và xếp hạng khách hàng còn nhằm mục đích:
-	- Phát triển chiến lược marketing nhằm hướng tới các khách hàng có ít rủi ro hơn 
-	- Ước lượng mức vốn đã cho vay sẽ không thu hồi được để trích lập dự phòng tổn thất tín dụng.
-## 4. TRIỂN KHAI MÔ HÌNH
-### 4.1. Xây dựng mô hình chung 
-	Với nguồn dữ liệu khách hàng cá nhân có nhu cầu vay vốn với số lượng lớn được cập nhật liên tục qua các trang web tìm kiếm nguồn vay hay trực tiếp tại các ngân hàng thương mại VN. Với việc triển khai quá trình XHTD cho khách hàng bằng trí tuện nhân tạo thì quy trình xếp hạng tín dụng cho khách hàng sẽ nhanh chóng và tuận tiện hơn. Cụ thể là sử dụng phương pháp phân lớp - classifications áp dụng trên thông tin dữ liệu của khách vay để phân loại nhóm khách hàng. Quy trình này sẽ được làm theo 3 bước sau:
-	Bước 1: Thu thập thông tin khách hàng
-	Bước 2: Thực hiện chấm điểm tín dụng khách hàng cá nhân bằng trí tuệ nhân tạo
-	Bước 3: Báo cáo chấm điểm
-	- Với quá trình thu thập thông tin khách hàng sẽ được đánh giá qua 3 tiêu trí chính: Đặc điểm khoản vay, thông tin phi tài chính và thông tin tài chính của khách hàng. Quá trình này được thể hiện qua sơ đồ sau:
+## 1. Target
+	- Enhance customer experience by reducing application processing time. 
+ 	- Improve the predictive capabilities of the credit scoring model using traditional methods to enhance the credit quality of installment loan customers, increase approval rates, and proactively manage bad debt. 
+  	=> The 'Artificial Intelligence Credit Scoring' project provides a competitive advantage, increasing the bank's credibility in the market.
+   
+## 2. What is credit scoring?
+This is a method implemented to assess the risk level of loan applicants based on both qualitative and quantitative factors, serving as the basis for determining credit limits for customers. Risk assessment of borrowers is conducted through statistical methods, data analysis, financial statement analysis, and balance sheet analysis. From this, certain indicators and maximum safe credit limits for a customer are determined, known as "scores," which banks use to evaluate and classify the credit risk of customers. This process involves analyzing past loan data to create an effective scoring model for customers.
+
+## 3.The importance of credit scoring in the banking sector
+	- Commercial banks always encounter various risks in their operations, such as credit risk, interest rate risk, liquidity risk, and foreign exchange risk. Among these, credit risk is the most significant as credit activities form the core operations of commercial banks, serving as a constant thread throughout their activities. Credit scoring and customer rating are conducted to assist commercial banks in:
+  - Making credit decisions: determining credit limits, terms, interest rates, collateral, and approval or rejection of credit applications.
+  - Monitoring and assessing creditworthy customers when credit accounts are outstanding. Customer ratings allow commercial banks to anticipate signs of deteriorating loan quality and take timely measures. From a portfolio management perspective, credit scoring and customer rating systems also serve the purpose of:
+  - Developing marketing strategies to target less risky customers.
+  - Estimating the amount of non-recoverable loans to set aside as credit loss provisions.
+## 4. MODEL IMPLEMENTATION
+### 4.1. Construct a comprehensive model
+	With an ongoing stream of data from individual customers seeking substantial loans, which is continually updated through loan search websites or directly from Vietnamese commercial banks, the implementation of the Customer Credit Scoring process using artificial intelligence will streamline and expedite the customer credit rating process. Specifically, it involves applying classification methods to customer data to group customers. This procedure will consist of the following three stages:
+Step 1: Gathering customer information.
+Step 2: Utilizing artificial intelligence to perform credit scoring for individual customers.
+Step 3: Generating a credit score report.
+
+The process of collecting customer information will be assessed based on three primary criteria: Loan attributes, non-financial details, and customer financial information. This process is depicted in the following diagram.
         
-Kết quả cảu quá trình XHTD khách hàng cá nhân sẽ được đánh giá phân lớp và đưa ra các kết luận cho từng nhóm như sau:
-	- Nhóm rủi ro thấp: Cho vay với chính sách ưu đãi.
-	- Nhóm rủi ro trung bình: Cho vay với điều kiện bình thường.
-	- Nhóm rủi ro cao: Có thể không cho vay hoặc cho vay nhưng áp dụng lãi suất cao hay cho vay với điều kiện khắt khe hơn.
- ### 4.2. Lựa chọn mô hình 
- *Mô hình random forest:
-	Bước 1: Chọn các mẫu ngẫu nhiên từ tập dữ liệu đã cho.
-	Bước 2: Thiết lập cây quyết định cho từng mẫu, nhận kết quả dự đoán từ mỗi quyết định cây.
-	Bước 3: Bỏ phiếu cho mỗi kết quả dự đoán.
-	Bước 4: Chọn kết quả được dự đoán nhiều nhất là dự đoán cuối cùng.
+The outcomes of the individual customer Credit Scoring process will be classified and specific determinations will be made for each category as outlined below:
+	- Low-risk category: Offering loans with favorable terms.
+	- Medium-risk category: Providing loans under standard conditions.
+	- High-risk category: Possible exclusion from lending or lending with elevated interest rates or more stringent terms.
+ ### 4.2. Model selection
+ *Random Forest model:
+	Step 1: Select random samples from the given dataset.
+ 	Step 2: Establish a decision tree for each sample, receiving predictions from each decision tree.
+  	Step 3: Cast votes for each prediction.
+   	Step 4: Choose the most frequently predicted result as the final prediction.
 ### 4.3. Các nhân tố được xem xét khi xếp hạng tín dụng cá nhân-lựa chọn các biến
 	Để áp dụng vào bài toán XHDT cho khách hàng thì trước hết ta cần xây dựng được các chỉ tiêu đánh giá dựa vào các căn cứ xác định mức cho vay dưới đây:
 	- Mức vốn của khách hàng tham gia vào dự án, phương án kinh doanh, sản xuất, dịch vụ, đời sống.
