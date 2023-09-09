@@ -3,7 +3,8 @@ This is a Python project that I worked on in university on Bussiness Artificial 
 ## 1. Target
 - Enhance customer experience by reducing application processing time. 
 - Improve the predictive capabilities of the credit scoring model using traditional methods to enhance the credit quality of installment loan customers, increase approval rates, and proactively manage bad debt. 
-  	=> The 'Artificial Intelligence Credit Scoring' project provides a competitive advantage, increasing the bank's credibility in the market.
+
+  => The 'Artificial Intelligence Credit Scoring' project provides a competitive advantage, increasing the bank's credibility in the market.
    
 ## 2. What is credit scoring?
 This is a method implemented to assess the risk level of loan applicants based on both qualitative and quantitative factors, serving as the basis for determining credit limits for customers. Risk assessment of borrowers is conducted through statistical methods, data analysis, financial statement analysis, and balance sheet analysis. From this, certain indicators and maximum safe credit limits for a customer are determined, known as "scores," which banks use to evaluate and classify the credit risk of customers. This process involves analyzing past loan data to create an effective scoring model for customers.
@@ -34,13 +35,14 @@ The outcomes of the individual customer Credit Scoring process will be classifie
  	Step 2: Establish a decision tree for each sample, receiving predictions from each decision tree.
   	Step 3: Cast votes for each prediction.
    	Step 4: Choose the most frequently predicted result as the final prediction.
+    
 ### 4.3. The factors considered when rating individual credit – the selection of variables.
-	To apply to the credit rating problem for customers, we need to first establish evaluation criteria based on the following determinants that define the lending limits:
-	- The customer's capital involvement in projects, business plans, production, services, and lifestyle.
-	- The maximum loan-to-value ratio compared to the collateral's value, as stipulated in the bank's collateral regulations.
-	- The customer's debt repayment capacity.
-	- The capital capacity of each bank and not exceeding the lending limit authorized by the Bank's CEO.
-	=> Based on these lending determinants of the bank, we can derive specific benchmarks for assessing and determining the lending limits as follows:
+To apply to the credit rating problem for customers, we need to first establish evaluation criteria based on the following determinants that define the lending limits:
+- The customer's capital involvement in projects, business plans, production, services, and lifestyle.
+- The maximum loan-to-value ratio compared to the collateral's value, as stipulated in the bank's collateral regulations.
+- The customer's debt repayment capacity.
+- The capital capacity of each bank and not exceeding the lending limit authorized by the Bank's CEO.
+=> Based on these lending determinants of the bank, we can derive specific benchmarks for assessing and determining the lending limits as follows:
 #### Non-financial indicators:
 + Age
 + Education level
