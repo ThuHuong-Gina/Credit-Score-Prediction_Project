@@ -19,6 +19,7 @@ This is a method implemented to assess the risk level of loan applicants based o
 ## 4. MODEL IMPLEMENTATION
 ### 4.1. Construct a comprehensive model
 With an ongoing stream of data from individual customers seeking substantial loans, which is continually updated through loan search websites or directly from Vietnamese commercial banks, the implementation of the Customer Credit Scoring process using artificial intelligence will streamline and expedite the customer credit rating process. Specifically, it involves applying classification methods to customer data to group customers. This procedure will consist of the following three stages:
+
 Step 1: Gathering customer information.
 Step 2: Utilizing artificial intelligence to perform credit scoring for individual customers.
 Step 3: Generating a credit score report.
