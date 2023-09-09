@@ -1,22 +1,23 @@
 # CREDIT SCORE_UNIVERSITY PROJECT
 This is a Python project that I worked on in university on Bussiness Artificial Intelligent subject
 ## 1. Target
-	- Enhance customer experience by reducing application processing time. 
- 	- Improve the predictive capabilities of the credit scoring model using traditional methods to enhance the credit quality of installment loan customers, increase approval rates, and proactively manage bad debt. 
+- Enhance customer experience by reducing application processing time. 
+- Improve the predictive capabilities of the credit scoring model using traditional methods to enhance the credit quality of installment loan customers, increase approval rates, and proactively manage bad debt. 
   	=> The 'Artificial Intelligence Credit Scoring' project provides a competitive advantage, increasing the bank's credibility in the market.
    
 ## 2. What is credit scoring?
 This is a method implemented to assess the risk level of loan applicants based on both qualitative and quantitative factors, serving as the basis for determining credit limits for customers. Risk assessment of borrowers is conducted through statistical methods, data analysis, financial statement analysis, and balance sheet analysis. From this, certain indicators and maximum safe credit limits for a customer are determined, known as "scores," which banks use to evaluate and classify the credit risk of customers. This process involves analyzing past loan data to create an effective scoring model for customers.
 
 ## 3.The importance of credit scoring in the banking sector
-	- Commercial banks always encounter various risks in their operations, such as credit risk, interest rate risk, liquidity risk, and foreign exchange risk. Among these, credit risk is the most significant as credit activities form the core operations of commercial banks, serving as a constant thread throughout their activities. Credit scoring and customer rating are conducted to assist commercial banks in:
-  - Making credit decisions: determining credit limits, terms, interest rates, collateral, and approval or rejection of credit applications.
-  - Monitoring and assessing creditworthy customers when credit accounts are outstanding. Customer ratings allow commercial banks to anticipate signs of deteriorating loan quality and take timely measures. From a portfolio management perspective, credit scoring and customer rating systems also serve the purpose of:
-  - Developing marketing strategies to target less risky customers.
-  - Estimating the amount of non-recoverable loans to set aside as credit loss provisions.
+- Commercial banks always encounter various risks in their operations, such as credit risk, interest rate risk, liquidity risk, and foreign exchange risk. Among these, credit risk is the most significant as credit activities form the core operations of commercial banks, serving as a constant thread throughout their activities. Credit scoring and customer rating are conducted to assist commercial banks in:
+- Making credit decisions: determining credit limits, terms, interest rates, collateral, and approval or rejection of credit applications.
+- Monitoring and assessing creditworthy customers when credit accounts are outstanding. Customer ratings allow commercial banks to anticipate signs of deteriorating loan quality and take timely measures. From a portfolio management perspective, credit scoring and customer rating systems also serve the purpose of:
+- Developing marketing strategies to target less risky customers.
+- Estimating the amount of non-recoverable loans to set aside as credit loss provisions.
+  
 ## 4. MODEL IMPLEMENTATION
 ### 4.1. Construct a comprehensive model
-	With an ongoing stream of data from individual customers seeking substantial loans, which is continually updated through loan search websites or directly from Vietnamese commercial banks, the implementation of the Customer Credit Scoring process using artificial intelligence will streamline and expedite the customer credit rating process. Specifically, it involves applying classification methods to customer data to group customers. This procedure will consist of the following three stages:
+With an ongoing stream of data from individual customers seeking substantial loans, which is continually updated through loan search websites or directly from Vietnamese commercial banks, the implementation of the Customer Credit Scoring process using artificial intelligence will streamline and expedite the customer credit rating process. Specifically, it involves applying classification methods to customer data to group customers. This procedure will consist of the following three stages:
 Step 1: Gathering customer information.
 Step 2: Utilizing artificial intelligence to perform credit scoring for individual customers.
 Step 3: Generating a credit score report.
