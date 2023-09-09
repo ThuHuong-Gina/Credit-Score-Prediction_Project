@@ -28,37 +28,37 @@ The outcomes of the individual customer Credit Scoring process will be classifie
 	- Medium-risk category: Providing loans under standard conditions.
 	- High-risk category: Possible exclusion from lending or lending with elevated interest rates or more stringent terms.
  ### 4.2. Model selection
- *Random Forest model:
+ *Random Forest model:*
 	Step 1: Select random samples from the given dataset.
  	Step 2: Establish a decision tree for each sample, receiving predictions from each decision tree.
   	Step 3: Cast votes for each prediction.
    	Step 4: Choose the most frequently predicted result as the final prediction.
-### 4.3. Các nhân tố được xem xét khi xếp hạng tín dụng cá nhân-lựa chọn các biến
-	Để áp dụng vào bài toán XHDT cho khách hàng thì trước hết ta cần xây dựng được các chỉ tiêu đánh giá dựa vào các căn cứ xác định mức cho vay dưới đây:
-	- Mức vốn của khách hàng tham gia vào dự án, phương án kinh doanh, sản xuất, dịch vụ, đời sống.
-	- Tỷ lệ cho vay tối đa so với giá trị tài sản bảo đảm tiền vay theo quy định về bảo đảm tiền vay của ngân hàng. 
-	- Khả năng hoàn trả nợ của khách hàng. 
-	- Khả năng nguồn vốn của mỗi ngân hàng và không được vượt quá định mức cho vay được ủy quyền bởi tổng giám đốc Ngân hàng cho vay
-	=> Dựa vào các căn cứ cho vay trên của ngân hàng ta đưa được các chi tiêu cụ thể để đánh giá và xác định mức cho vay như sau:
-#### Chỉ tiêu phi tài chính:
-+ Độ tuổi
-+ Trình độ học vấn
-+ Số lao động trong gia đình
-+ Thời gian gắn bó với công việc hiện tại
-+ Số lượng nguồn thu tài chính
-#### Chỉ tiêu tài chính:
-+ Thu nhập cố định mỗi tháng
-+ Giá trị tài sản bảo đảm (nhà, xe, đất, …)
-+ Tài khoản tiết kiệm
-+ Số dư nợ hiện có
-#### Đặc điểm khoản vay:
-+ Lãi suất
-+ Thời hạn
-+ Tỷ lệ khoản vay 
-+ Phương thức trả
+### 4.3. The factors considered when rating individual credit – the selection of variables.
+	To apply to the credit rating problem for customers, we need to first establish evaluation criteria based on the following determinants that define the lending limits:
+	- The customer's capital involvement in projects, business plans, production, services, and lifestyle.
+	- The maximum loan-to-value ratio compared to the collateral's value, as stipulated in the bank's collateral regulations.
+	- The customer's debt repayment capacity.
+	- The capital capacity of each bank and not exceeding the lending limit authorized by the Bank's CEO.
+	=> Based on these lending determinants of the bank, we can derive specific benchmarks for assessing and determining the lending limits as follows:
+#### Non-financial indicators:
++ Age
++ Education level
++ Number of workers in the family
++ Time attached to current job
++ Quantity of financial revenue sources
+#### Fianacial indicators:
++ Fixed income per month
++ Value of collateral (house, car, land, etc.)
++ Savings account
++ Existing debt balance
+#### Loan features:
++ Interest rate
++ Deadline
++ Loan rate
++ Payment method
 
-### 4.4. Hệ thống xếp hạng
-Mô hình này chú trọng nhiều hơn về khả năng trả nợ với 8 chỉ tiêu đánh giá, trong khi đó đặc điểm thân nhân chỉ có 4 chỉ tiêu đánh giá. Chương trình sẽ kiểm tra tính hợp lý của dữ liệu theo nguyên tắc kiểm soát chỉ số và chỉ ra những điểm cần xem xét lại khi phát hiện có sự không hợp lý về chỉ tiêu pháp lý, chỉ tiêu chấm điểm, tổng điểm và xếp hạng của khách hàng. Hệ thống ký hiệu xếp hạng cá nhân có các mức giảm từ AAA đến D như trình bày trong bảng sau. Căn cứ vào tổng điểm tối đa giảm dần từ 100 điểm của từng cá nhân (đã quy đổi theo trọng số như trên) để xếp hạng tương ứng.
+### 4.4. Moody's ratign scale
+This model places greater emphasis on assessing debt repayment capacity using eight evaluation criteria, while only four evaluation criteria are dedicated to assessing family members' characteristics. The program will validate the data for consistency according to index control principles and flag areas for review when inconsistencies are detected in legal criteria, scoring criteria, total scores, and customer class rankings. The individual rating system ranges from AAA to D, as illustrated in the table below, with rankings determined based on the decreasing total maximum score of 100 points per individual (adjusted by the specified weights).
 
 ![image](https://github.com/ThuHuong-Gina/Credit-Score-Prediction_Project/assets/141025228/c9bcb898-677c-4d47-88a2-ea0dacad47c7)
 
